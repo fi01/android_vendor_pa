@@ -35,3 +35,6 @@ add_lunch_combo pa_mint-userdebug
 add_lunch_combo pa_su640-userdebug
 add_lunch_combo pa_tf700t-userdebug
 add_lunch_combo pa_tsubasa-userdebug
+add_lunch_combo pa_p6200-userdebug
+add_lunch_combo pa_t869-userdebug
+add_lunch_combo pa_sc02d-userdebug
