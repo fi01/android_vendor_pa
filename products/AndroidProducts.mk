@@ -121,3 +121,6 @@ endif
 ifeq (pa_tsubasa,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_tsubasa.mk
 endif
+ifeq (pa_d710,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_d710.mk
+endif
