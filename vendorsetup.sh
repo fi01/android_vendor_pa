@@ -35,8 +35,5 @@ add_lunch_combo pa_mint-userdebug
 add_lunch_combo pa_su640-userdebug
 add_lunch_combo pa_tf700t-userdebug
 add_lunch_combo pa_tsubasa-userdebug
-<<<<<<< HEAD
-add_lunch_combo pa_d710-userdebug
-=======
 add_lunch_combo pa_p990-userdebug
->>>>>>> upstream/jellybean
+add_lunch_combo pa_d710-userdebug
