@@ -121,6 +121,11 @@ endif
 ifeq (pa_tsubasa,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_tsubasa.mk
 endif
+<<<<<<< HEAD
 ifeq (pa_d710,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_d710.mk
+=======
+ifeq (pa_p990,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_p990.mk
+>>>>>>> upstream/jellybean
 endif
