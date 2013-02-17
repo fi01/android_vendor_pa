@@ -1,3 +1,12 @@
+ifeq (pa_p6200,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_p6200.mk
+endif
+ifeq (pa_t869,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_t869.mk
+endif
+ifeq (pa_sc02d,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_sc02d.mk
+endif
 ifeq (pa_i9100,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_i9100.mk
 endif
@@ -127,12 +136,6 @@ endif
 ifeq (pa_d710,$(TARGET_PRODUCT))
     PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_d710.mk
 endif
-ifeq (pa_p6200,$(TARGET_PRODUCT))
-    PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_p6200.mk
-endif
-ifeq (pa_t869,$(TARGET_PRODUCT))
-    PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_t869.mk
-endif
-ifeq (pa_sc02d,$(TARGET_PRODUCT))
-    PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_sc02d.mk
+ifeq (pa_venturi,$(TARGET_PRODUCT))
+    PRODUCT_MAKEFILES += $(LOCAL_DIR)/pa_venturi.mk
 endif
